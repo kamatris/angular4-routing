@@ -1,0 +1,49 @@
+<div class="side-menu">
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <div class="brand-wrapper">
+                <!-- Hamburger -->
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Main Menu -->
+        <div class="side-menu-container">
+            <ul class="nav navbar-nav">
+              <li>
+                <a routerLink="/" routerLinkActive="active">
+                  <span class="desc animate"></span>
+                  <span class="glyphicon glyphicon-home"></span>
+                </a>
+              </li>
+              <li>
+                <a routerLink="/cours" routerLinkActive="active">
+                  <span class="desc animate"> Cours </span>
+                  <span class="glyphicon glyphicon-briefcase"></span>
+                </a>
+              </li>
+              <li>
+                <a routerLink="/formation" routerLinkActive="active">
+                  <span class="desc animate"> Formation </span>
+                  <span class="glyphicon glyphicon-bookmark"></span>
+                </a>
+              </li>
+              <li>
+                <a routerLink="/book" routerLinkActive="active">
+                  <span class="desc animate"> Book </span>
+                  <span class="glyphicon glyphicon-book"></span>
+                </a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<router-outlet></router-outlet>
